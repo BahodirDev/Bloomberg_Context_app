@@ -1,0 +1,21 @@
+.items_card{
+    padding: 25px;
+    background: rgba(235, 235, 130, 0.722);
+    min-height: 100vh;
+}
+
+.collection_avatar{
+    background: #fff;
+}
+
+@media (max-width:376px) {
+    .collection_avatar{
+        padding: 10px;
+        text-align: center;
+    }
+    .collection_avatar img{
+        width: 95%;
+        margin: 0 auto;
+    }
+  
+}

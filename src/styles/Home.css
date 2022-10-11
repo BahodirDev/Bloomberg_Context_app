@@ -1,0 +1,23 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(31, 84, 122),rgb(25, 7, 87));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_text h2{
+    cursor: pointer;
+    font-size: 48px;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes mymove {
+    0%   {color: rgb(255, 255, 255);}
+    25%  {color: rgba(255, 255, 255, 0.76);}
+    50%  {color: rgba(255, 255, 255, 0.37);}
+    75%  {color: rgba(255, 255, 255, 0.13);}
+    100% {color: rgb(41, 78, 142);}
+  }
